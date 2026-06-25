@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
-# VERSION:  8.19.2
+# VERSION:  8.19.3
 # TYPE:     1-REGULAR
 # STYLE:    TABULA RASA
 # AUTHOR:   NeverSink
@@ -405,7 +405,7 @@ Show # %D4 $type->influenced->all $tier->t2high
 	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 	ItemLevel >= 84
 	Rarity Rare
-	BaseType == "Ancient Mask" "Assassin's Boots" "Astral Leather" "Battered Foil" "Chimerascale Boots" "Chimerascale Gauntlets" "Conqueror's Helmet" "Conquest Helmet" "Convoking Wand" "Copper Kris" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Despot Axe" "Dire Pelt" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Ezomyte Staff" "Faithful Helmet" "Full Wyvernscale" "Gemini Claw" "General's Helmet" "Golden Kris" "Goliath Greaves" "Grand Ringmail" "Grizzly Pelt" "Harpyskin Boots" "Harpyskin Gloves" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imperial Claw" "Imperial Skean" "Infiltrator Boots" "Infiltrator Mitts" "Jester Mask" "Jewelled Foil" "Kinetic Wand" "Knight Helm" "Legion Boots" "Legion Gloves" "Legion Plate" "Lion Pelt" "Marshall's Brigandine" "Martyr Boots" "Martyr Gloves" "Mirrored Spiked Shield" "Moonlit Circlet" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Nightweave Robe" "Opal Sceptre" "Opal Wand" "Paladin Crown" "Paladin's Hauberk" "Piledriver" "Platinum Kris" "Praetor Crown" "Precursor Gauntlets" "Precursor Greaves" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Royal Burgonet" "Sage Gloves" "Sage Slippers" "Sanguine Raiment" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spine Bow" "Stealth Boots" "Sunfire Circlet" "Supreme Leather" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titan Plate" "Tornado Wand" "Torturer Garb" "Vaal Axe" "Vaal Gauntlets" "Vaal Greaves" "Vaal Mask" "Void Sceptre" "Whalebone Rapier"
+	BaseType == "Ancient Mask" "Assassin's Boots" "Astral Leather" "Battered Foil" "Chimerascale Boots" "Chimerascale Gauntlets" "Conqueror's Helmet" "Conquest Helmet" "Convoking Wand" "Copper Kris" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Despot Axe" "Dire Pelt" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Ezomyte Staff" "Faithful Helmet" "Full Wyvernscale" "Gemini Claw" "General's Helmet" "Golden Kris" "Goliath Greaves" "Grand Ringmail" "Grizzly Pelt" "Harpyskin Boots" "Harpyskin Gloves" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imperial Claw" "Imperial Skean" "Infiltrator Boots" "Infiltrator Mitts" "Jester Mask" "Jewelled Foil" "Kinetic Wand" "Knight Helm" "Legion Boots" "Legion Gloves" "Legion Plate" "Lion Pelt" "Marshall's Brigandine" "Martyr Boots" "Martyr Gloves" "Mirrored Spiked Shield" "Moonlit Circlet" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Nightweave Robe" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Paladin Crown" "Paladin's Hauberk" "Piledriver" "Platinum Kris" "Praetor Crown" "Precursor Gauntlets" "Precursor Greaves" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Royal Burgonet" "Sage Gloves" "Sage Slippers" "Sanguine Raiment" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spine Bow" "Stealth Boots" "Sunfire Circlet" "Supreme Leather" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titan Plate" "Tornado Wand" "Torturer Garb" "Vaal Axe" "Vaal Gauntlets" "Vaal Greaves" "Vaal Mask" "Void Sceptre" "Whalebone Rapier"
 
 # Low strictness 86 rule
 
@@ -473,7 +473,7 @@ Show # %D9 $type->exoticbases $tier->exoticlakekala
 	Rarity Normal Magic Rare
 	BaseType == "Dusk Ring" "Gloam Ring" "Penumbra Ring" "Shadowed Ring" "Tenebrous Ring"
 
-Show # %D5 $type->exoticbases $tier->exoticexpeditionbases
+Show # %D8 $type->exoticbases $tier->exoticexpeditionbases
 	Rarity Normal Magic Rare
 	BaseType == "Iron Flask" "Runic Crest" "Runic Crown" "Runic Gages" "Runic Gauntlets" "Runic Gloves" "Runic Greaves" "Runic Helm" "Runic Sabatons" "Runic Sollerets"
 
@@ -1277,7 +1277,7 @@ Show # %D9 $type->crafting->qualityperfection $tier->weapont1q1
 	Corrupted False
 	Quality >= 28
 	ItemLevel >= 83
-	BaseType == "Artillery Quiver" "Battered Foil" "Broadhead Arrow Quiver" "Convoking Wand" "Copper Kris" "Despot Axe" "Feathered Arrow Quiver" "Gemini Claw" "Golden Kris" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Kinetic Wand" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Short Bow" "Siege Axe" "Spine Bow" "Thicket Bow" "Vaal Axe" "Void Sceptre" "Whalebone Rapier"
+	BaseType == "Artillery Quiver" "Battered Foil" "Broadhead Arrow Quiver" "Convoking Wand" "Copper Kris" "Despot Axe" "Feathered Arrow Quiver" "Gemini Claw" "Golden Kris" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Kinetic Wand" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Platinum Kris" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Short Bow" "Siege Axe" "Spine Bow" "Thicket Bow" "Vaal Axe" "Void Sceptre" "Whalebone Rapier"
 
 Show # %D8 $type->crafting->qualityperfection $tier->weapont2q1
 	Mirrored False
@@ -1291,7 +1291,7 @@ Show # %D8 $type->crafting->qualityperfection $tier->weapont1q2
 	Corrupted False
 	Quality >= 24
 	ItemLevel >= 83
-	BaseType == "Artillery Quiver" "Battered Foil" "Broadhead Arrow Quiver" "Convoking Wand" "Copper Kris" "Despot Axe" "Feathered Arrow Quiver" "Gemini Claw" "Golden Kris" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Kinetic Wand" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Short Bow" "Siege Axe" "Spine Bow" "Thicket Bow" "Vaal Axe" "Void Sceptre" "Whalebone Rapier"
+	BaseType == "Artillery Quiver" "Battered Foil" "Broadhead Arrow Quiver" "Convoking Wand" "Copper Kris" "Despot Axe" "Feathered Arrow Quiver" "Gemini Claw" "Golden Kris" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Kinetic Wand" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Platinum Kris" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Short Bow" "Siege Axe" "Spine Bow" "Thicket Bow" "Vaal Axe" "Void Sceptre" "Whalebone Rapier"
 
 Show # %D7 $type->crafting->qualityperfection $tier->weapont2q2
 	Mirrored False
@@ -1365,28 +1365,28 @@ Show # %D5 $type->gear->memorystrand $tier->t2high
 	Corrupted False
 	MemoryStrands >= 60
 	Rarity Normal Magic Rare
-	BaseType == "Amber Amulet" "Ancient Mask" "Apothecary's Gloves" "Archon Kite Shield" "Artillery Quiver" "Assassin's Boots" "Astral Leather" "Battered Foil" "Blue Pearl Amulet" "Bone Helmet" "Bone Ring" "Broadhead Arrow Quiver" "Cardinal Round Shield" "Chimerascale Boots" "Chimerascale Gauntlets" "Colossal Tower Shield" "Conqueror's Helmet" "Conquest Helmet" "Convoking Wand" "Copper Kris" "Coral Ring" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Despot Axe" "Diamond Ring" "Dire Pelt" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Ezomyte Staff" "Ezomyte Tower Shield" "Faithful Helmet" "Feathered Arrow Quiver" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Full Wyvernscale" "Gemini Claw" "General's Helmet" "Golden Kris" "Goliath Greaves" "Grand Ringmail" "Gripped Gloves" "Grizzly Pelt" "Harpyskin Boots" "Harpyskin Gloves" "Heavy Belt" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imperial Claw" "Imperial Skean" "Infiltrator Boots" "Infiltrator Mitts" "Jade Amulet" "Jester Mask" "Jewelled Foil" "Kinetic Wand" "Knight Helm" "Lacquered Buckler" "Lapis Amulet" "Leather Belt" "Legion Boots" "Legion Gloves" "Legion Plate" "Lion Pelt" "Marble Amulet" "Marshall's Brigandine" "Martyr Boots" "Martyr Gloves" "Mirrored Spiked Shield" "Moonlit Circlet" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Nightweave Robe" "Opal Sceptre" "Opal Wand" "Paladin Crown" "Paladin's Hauberk" "Piledriver" "Platinum Kris" "Praetor Crown" "Precursor Gauntlets" "Precursor Greaves" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Royal Burgonet" "Ruby Ring" "Sage Gloves" "Sage Slippers" "Sanguine Raiment" "Sapphire Ring" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Spine Bow" "Stealth Boots" "Sunfire Circlet" "Supreme Leather" "Supreme Spiked Shield" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titan Plate" "Titanium Spirit Shield" "Topaz Ring" "Tornado Wand" "Torturer Garb" "Two-Toned Boots" "Unset Ring" "Vaal Axe" "Vaal Gauntlets" "Vaal Greaves" "Vaal Mask" "Vanguard Belt" "Void Sceptre" "Whalebone Rapier"
+	BaseType == "Amber Amulet" "Ancient Mask" "Apothecary's Gloves" "Archon Kite Shield" "Artillery Quiver" "Assassin's Boots" "Astral Leather" "Battered Foil" "Blue Pearl Amulet" "Bone Helmet" "Bone Ring" "Broadhead Arrow Quiver" "Cardinal Round Shield" "Chimerascale Boots" "Chimerascale Gauntlets" "Colossal Tower Shield" "Conqueror's Helmet" "Conquest Helmet" "Convoking Wand" "Copper Kris" "Coral Ring" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Despot Axe" "Diamond Ring" "Dire Pelt" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Ezomyte Staff" "Ezomyte Tower Shield" "Faithful Helmet" "Feathered Arrow Quiver" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Full Wyvernscale" "Gemini Claw" "General's Helmet" "Golden Kris" "Goliath Greaves" "Grand Ringmail" "Gripped Gloves" "Grizzly Pelt" "Harpyskin Boots" "Harpyskin Gloves" "Heavy Belt" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imperial Claw" "Imperial Skean" "Infiltrator Boots" "Infiltrator Mitts" "Jade Amulet" "Jester Mask" "Jewelled Foil" "Kinetic Wand" "Knight Helm" "Lacquered Buckler" "Lapis Amulet" "Leather Belt" "Legion Boots" "Legion Gloves" "Legion Plate" "Lion Pelt" "Marble Amulet" "Marshall's Brigandine" "Martyr Boots" "Martyr Gloves" "Mirrored Spiked Shield" "Moonlit Circlet" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Nightweave Robe" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Paladin Crown" "Paladin's Hauberk" "Piledriver" "Platinum Kris" "Praetor Crown" "Precursor Gauntlets" "Precursor Greaves" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Royal Burgonet" "Ruby Ring" "Sage Gloves" "Sage Slippers" "Sanguine Raiment" "Sapphire Ring" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Spine Bow" "Stealth Boots" "Sunfire Circlet" "Supreme Leather" "Supreme Spiked Shield" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titan Plate" "Titanium Spirit Shield" "Topaz Ring" "Tornado Wand" "Torturer Garb" "Two-Toned Boots" "Unset Ring" "Vaal Axe" "Vaal Gauntlets" "Vaal Greaves" "Vaal Mask" "Vanguard Belt" "Void Sceptre" "Whalebone Rapier"
 
 Show # %D4 $type->gear->memorystrand $tier->t2
 	Mirrored False
 	Corrupted False
 	MemoryStrands >= 1
 	Rarity Normal Magic Rare
-	BaseType == "Amber Amulet" "Ancient Mask" "Apothecary's Gloves" "Archon Kite Shield" "Artillery Quiver" "Assassin's Boots" "Astral Leather" "Battered Foil" "Blue Pearl Amulet" "Bone Helmet" "Bone Ring" "Broadhead Arrow Quiver" "Cardinal Round Shield" "Chimerascale Boots" "Chimerascale Gauntlets" "Colossal Tower Shield" "Conqueror's Helmet" "Conquest Helmet" "Convoking Wand" "Copper Kris" "Coral Ring" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Despot Axe" "Diamond Ring" "Dire Pelt" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Ezomyte Staff" "Ezomyte Tower Shield" "Faithful Helmet" "Feathered Arrow Quiver" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Full Wyvernscale" "Gemini Claw" "General's Helmet" "Golden Kris" "Goliath Greaves" "Grand Ringmail" "Gripped Gloves" "Grizzly Pelt" "Harpyskin Boots" "Harpyskin Gloves" "Heavy Belt" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imperial Claw" "Imperial Skean" "Infiltrator Boots" "Infiltrator Mitts" "Jade Amulet" "Jester Mask" "Jewelled Foil" "Kinetic Wand" "Knight Helm" "Lacquered Buckler" "Lapis Amulet" "Leather Belt" "Legion Boots" "Legion Gloves" "Legion Plate" "Lion Pelt" "Marble Amulet" "Marshall's Brigandine" "Martyr Boots" "Martyr Gloves" "Mirrored Spiked Shield" "Moonlit Circlet" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Nightweave Robe" "Opal Sceptre" "Opal Wand" "Paladin Crown" "Paladin's Hauberk" "Piledriver" "Platinum Kris" "Praetor Crown" "Precursor Gauntlets" "Precursor Greaves" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Royal Burgonet" "Ruby Ring" "Sage Gloves" "Sage Slippers" "Sanguine Raiment" "Sapphire Ring" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Spine Bow" "Stealth Boots" "Sunfire Circlet" "Supreme Leather" "Supreme Spiked Shield" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titan Plate" "Titanium Spirit Shield" "Topaz Ring" "Tornado Wand" "Torturer Garb" "Two-Toned Boots" "Unset Ring" "Vaal Axe" "Vaal Gauntlets" "Vaal Greaves" "Vaal Mask" "Vanguard Belt" "Void Sceptre" "Whalebone Rapier"
+	BaseType == "Amber Amulet" "Ancient Mask" "Apothecary's Gloves" "Archon Kite Shield" "Artillery Quiver" "Assassin's Boots" "Astral Leather" "Battered Foil" "Blue Pearl Amulet" "Bone Helmet" "Bone Ring" "Broadhead Arrow Quiver" "Cardinal Round Shield" "Chimerascale Boots" "Chimerascale Gauntlets" "Colossal Tower Shield" "Conqueror's Helmet" "Conquest Helmet" "Convoking Wand" "Copper Kris" "Coral Ring" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Despot Axe" "Diamond Ring" "Dire Pelt" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Ezomyte Staff" "Ezomyte Tower Shield" "Faithful Helmet" "Feathered Arrow Quiver" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Full Wyvernscale" "Gemini Claw" "General's Helmet" "Golden Kris" "Goliath Greaves" "Grand Ringmail" "Gripped Gloves" "Grizzly Pelt" "Harpyskin Boots" "Harpyskin Gloves" "Heavy Belt" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imperial Claw" "Imperial Skean" "Infiltrator Boots" "Infiltrator Mitts" "Jade Amulet" "Jester Mask" "Jewelled Foil" "Kinetic Wand" "Knight Helm" "Lacquered Buckler" "Lapis Amulet" "Leather Belt" "Legion Boots" "Legion Gloves" "Legion Plate" "Lion Pelt" "Marble Amulet" "Marshall's Brigandine" "Martyr Boots" "Martyr Gloves" "Mirrored Spiked Shield" "Moonlit Circlet" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Nightweave Robe" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Paladin Crown" "Paladin's Hauberk" "Piledriver" "Platinum Kris" "Praetor Crown" "Precursor Gauntlets" "Precursor Greaves" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Reaver Axe" "Reaver Sword" "Reflex Bow" "Royal Burgonet" "Ruby Ring" "Sage Gloves" "Sage Slippers" "Sanguine Raiment" "Sapphire Ring" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Spine Bow" "Stealth Boots" "Sunfire Circlet" "Supreme Leather" "Supreme Spiked Shield" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titan Plate" "Titanium Spirit Shield" "Topaz Ring" "Tornado Wand" "Torturer Garb" "Two-Toned Boots" "Unset Ring" "Vaal Axe" "Vaal Gauntlets" "Vaal Greaves" "Vaal Mask" "Vanguard Belt" "Void Sceptre" "Whalebone Rapier"
 
 Show # %D4 $type->gear->memorystrand $tier->t3high
 	Mirrored False
 	Corrupted False
 	MemoryStrands >= 70
 	Rarity Normal Magic Rare
-	BaseType == "Agate Amulet" "Ambush Boots" "Ambush Mitts" "Ambusher" "Ancient Gauntlets" "Ancient Greaves" "Antique Greaves" "Arcane Vestment" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Mitts" "Astral Plate" "Basket Rapier" "Behemoth Mace" "Blasting Wand" "Carnal Boots" "Carnal Mitts" "Carnal Sceptre" "Chain Belt" "Champion Kite Shield" "Citadel Bow" "Citrine Amulet" "Cloth Belt" "Conjurer Boots" "Conjurer Gloves" "Convening Wand" "Coral Amulet" "Corsair Sword" "Crusader Buckler" "Demon's Horn" "Eclipse Staff" "Elegant Round Shield" "Eternal Sword" "Exquisite Blade" "Eye Gouger" "Ezomyte Axe" "Ezomyte Blade" "Ezomyte Burgonet" "Fleshripper" "Fluted Bascinet" "Full Dragonscale" "Glorious Plate" "Gold Amulet" "Gold Ring" "Goliath Gauntlets" "Grove Bow" "Gutting Knife" "Harbinger Bow" "Harlequin Mask" "Harmonic Spirit Shield" "Heathen Wand" "Heavy Arrow Quiver" "Imperial Bow" "Imperial Buckler" "Iron Ring" "Judgement Staff" "Karui Chopper" "Karui Sceptre" "Legion Hammer" "Maelström Staff" "Maraketh Bow" "Meatgrinder" "Mind Cage" "Moonstone Ring" "Mosaic Kite Shield" "Nightmare Mace" "Paua Amulet" "Paua Ring" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Prophet Crown" "Regicide Mask" "Royal Axe" "Runic Hatchet" "Rustic Sash" "Sadist Garb" "Sai" "Saintly Chainmail" "Sambar Sceptre" "Samite Slippers" "Samnite Helmet" "Seaglass Amulet" "Serpentscale Boots" "Serpentscale Gauntlets" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Silken Hood" "Sinner Tricorne" "Solaris Circlet" "Soldier Boots" "Soldier Gloves" "Spiraled Foil" "Stealth Gloves" "Studded Belt" "Sundering Axe" "Triumphant Lamellar" "Turquoise Amulet" "Vaal Regalia" "Vaal Sceptre" "Vaal Spirit Shield" "Vile Arrow Quiver" "Wyrmscale Boots" "Wyrmscale Gauntlets" "Zealot Boots" "Zodiac Leather"
+	BaseType == "Ambush Boots" "Ambush Mitts" "Ambusher" "Ancient Gauntlets" "Ancient Greaves" "Antique Greaves" "Arcane Vestment" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Mitts" "Astral Plate" "Basket Rapier" "Behemoth Mace" "Blasting Wand" "Carnal Boots" "Carnal Mitts" "Carnal Sceptre" "Chain Belt" "Champion Kite Shield" "Citadel Bow" "Cloth Belt" "Conjurer Boots" "Conjurer Gloves" "Convening Wand" "Coral Amulet" "Corsair Sword" "Crusader Buckler" "Demon's Horn" "Eclipse Staff" "Elegant Round Shield" "Eternal Sword" "Exquisite Blade" "Eye Gouger" "Ezomyte Axe" "Ezomyte Blade" "Ezomyte Burgonet" "Fleshripper" "Fluted Bascinet" "Full Dragonscale" "Glorious Plate" "Gold Amulet" "Gold Ring" "Goliath Gauntlets" "Grove Bow" "Gutting Knife" "Harbinger Bow" "Harlequin Mask" "Harmonic Spirit Shield" "Heathen Wand" "Heavy Arrow Quiver" "Imperial Bow" "Imperial Buckler" "Iron Ring" "Judgement Staff" "Karui Chopper" "Karui Sceptre" "Legion Hammer" "Maelström Staff" "Maraketh Bow" "Meatgrinder" "Mind Cage" "Moonstone Ring" "Mosaic Kite Shield" "Nightmare Mace" "Paua Amulet" "Paua Ring" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Prophet Crown" "Regicide Mask" "Royal Axe" "Runic Hatchet" "Rustic Sash" "Sadist Garb" "Sai" "Saintly Chainmail" "Sambar Sceptre" "Samite Slippers" "Samnite Helmet" "Seaglass Amulet" "Serpentscale Boots" "Serpentscale Gauntlets" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Silken Hood" "Sinner Tricorne" "Solaris Circlet" "Soldier Boots" "Soldier Gloves" "Spiraled Foil" "Stealth Gloves" "Studded Belt" "Sundering Axe" "Triumphant Lamellar" "Vaal Regalia" "Vaal Sceptre" "Vaal Spirit Shield" "Vile Arrow Quiver" "Wyrmscale Boots" "Wyrmscale Gauntlets" "Zealot Boots" "Zodiac Leather"
 
 Show # %D2 $type->gear->memorystrand $tier->t3
 	Mirrored False
 	Corrupted False
 	MemoryStrands >= 1
 	Rarity Normal Magic Rare
-	BaseType == "Agate Amulet" "Ambush Boots" "Ambush Mitts" "Ambusher" "Ancient Gauntlets" "Ancient Greaves" "Antique Greaves" "Arcane Vestment" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Mitts" "Astral Plate" "Basket Rapier" "Behemoth Mace" "Blasting Wand" "Carnal Boots" "Carnal Mitts" "Carnal Sceptre" "Chain Belt" "Champion Kite Shield" "Citadel Bow" "Citrine Amulet" "Cloth Belt" "Conjurer Boots" "Conjurer Gloves" "Convening Wand" "Coral Amulet" "Corsair Sword" "Crusader Buckler" "Demon's Horn" "Eclipse Staff" "Elegant Round Shield" "Eternal Sword" "Exquisite Blade" "Eye Gouger" "Ezomyte Axe" "Ezomyte Blade" "Ezomyte Burgonet" "Fleshripper" "Fluted Bascinet" "Full Dragonscale" "Glorious Plate" "Gold Amulet" "Gold Ring" "Goliath Gauntlets" "Grove Bow" "Gutting Knife" "Harbinger Bow" "Harlequin Mask" "Harmonic Spirit Shield" "Heathen Wand" "Heavy Arrow Quiver" "Imperial Bow" "Imperial Buckler" "Iron Ring" "Judgement Staff" "Karui Chopper" "Karui Sceptre" "Legion Hammer" "Maelström Staff" "Maraketh Bow" "Meatgrinder" "Mind Cage" "Moonstone Ring" "Mosaic Kite Shield" "Nightmare Mace" "Paua Amulet" "Paua Ring" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Prophet Crown" "Regicide Mask" "Royal Axe" "Runic Hatchet" "Rustic Sash" "Sadist Garb" "Sai" "Saintly Chainmail" "Sambar Sceptre" "Samite Slippers" "Samnite Helmet" "Seaglass Amulet" "Serpentscale Boots" "Serpentscale Gauntlets" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Silken Hood" "Sinner Tricorne" "Solaris Circlet" "Soldier Boots" "Soldier Gloves" "Spiraled Foil" "Stealth Gloves" "Studded Belt" "Sundering Axe" "Triumphant Lamellar" "Turquoise Amulet" "Vaal Regalia" "Vaal Sceptre" "Vaal Spirit Shield" "Vile Arrow Quiver" "Wyrmscale Boots" "Wyrmscale Gauntlets" "Zealot Boots" "Zodiac Leather"
+	BaseType == "Ambush Boots" "Ambush Mitts" "Ambusher" "Ancient Gauntlets" "Ancient Greaves" "Antique Greaves" "Arcane Vestment" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Mitts" "Astral Plate" "Basket Rapier" "Behemoth Mace" "Blasting Wand" "Carnal Boots" "Carnal Mitts" "Carnal Sceptre" "Chain Belt" "Champion Kite Shield" "Citadel Bow" "Cloth Belt" "Conjurer Boots" "Conjurer Gloves" "Convening Wand" "Coral Amulet" "Corsair Sword" "Crusader Buckler" "Demon's Horn" "Eclipse Staff" "Elegant Round Shield" "Eternal Sword" "Exquisite Blade" "Eye Gouger" "Ezomyte Axe" "Ezomyte Blade" "Ezomyte Burgonet" "Fleshripper" "Fluted Bascinet" "Full Dragonscale" "Glorious Plate" "Gold Amulet" "Gold Ring" "Goliath Gauntlets" "Grove Bow" "Gutting Knife" "Harbinger Bow" "Harlequin Mask" "Harmonic Spirit Shield" "Heathen Wand" "Heavy Arrow Quiver" "Imperial Bow" "Imperial Buckler" "Iron Ring" "Judgement Staff" "Karui Chopper" "Karui Sceptre" "Legion Hammer" "Maelström Staff" "Maraketh Bow" "Meatgrinder" "Mind Cage" "Moonstone Ring" "Mosaic Kite Shield" "Nightmare Mace" "Paua Amulet" "Paua Ring" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Prophet Crown" "Regicide Mask" "Royal Axe" "Runic Hatchet" "Rustic Sash" "Sadist Garb" "Sai" "Saintly Chainmail" "Sambar Sceptre" "Samite Slippers" "Samnite Helmet" "Seaglass Amulet" "Serpentscale Boots" "Serpentscale Gauntlets" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Silken Hood" "Sinner Tricorne" "Solaris Circlet" "Soldier Boots" "Soldier Gloves" "Spiraled Foil" "Stealth Gloves" "Studded Belt" "Sundering Axe" "Triumphant Lamellar" "Vaal Regalia" "Vaal Sceptre" "Vaal Spirit Shield" "Vile Arrow Quiver" "Wyrmscale Boots" "Wyrmscale Gauntlets" "Zealot Boots" "Zodiac Leather"
 
 Show # %D3 $type->gear->memorystrand $tier->anyhigh
 	Mirrored False
@@ -1966,13 +1966,13 @@ Show # %D2 $type->rare->exotic->veiled $tier->any
 #------------------------------------
 # !! Waypoint c4.rare.breach.all : "Rare Endgame Items - Breach rings" : "Gear - Exotic"
 
-Show # %HS4 $type->rare->exotic->breachrings $tier->high
+Show # %HS6 $type->rare->exotic->breachrings $tier->high
 	ItemLevel >= 82
 	Rarity Normal Magic Rare
 	Class == "Rings"
 	BaseType == "Cryonic Ring" "Enthalpic Ring" "Formless Ring" "Fugitive Ring" "Organic Ring" "Synaptic Ring"
 
-Show # %HS3 $type->rare->exotic->breachrings $tier->any
+Show # %HS5 $type->rare->exotic->breachrings $tier->any
 	ItemLevel >= 68
 	Rarity Normal Magic Rare
 	Class == "Rings"
@@ -2268,7 +2268,7 @@ Show # %D3 $type->crafting->generalgear $tier->t2_84
 	Corrupted False
 	ItemLevel >= 84
 	Rarity Normal Magic Rare
-	BaseType == "Amethyst Ring" "Bone Ring" "Cerulean Ring" "Convoking Wand" "Copper Kris" "Diamond Ring" "Golden Kris" "Imperial Skean" "Kinetic Wand" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Prismatic Ring" "Profane Wand" "Prophecy Wand" "Two-Stone Ring" "Unset Ring" "Void Sceptre"
+	BaseType == "Amethyst Ring" "Bone Ring" "Cerulean Ring" "Convoking Wand" "Copper Kris" "Diamond Ring" "Golden Kris" "Imperial Skean" "Kinetic Wand" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Platinum Kris" "Prismatic Ring" "Profane Wand" "Prophecy Wand" "Two-Stone Ring" "Unset Ring" "Void Sceptre"
 
 Show # %D2 $type->crafting->generalgear $tier->t3_84
 	Mirrored False
@@ -3874,9 +3874,9 @@ Show # $type->fragments->scarabs $tier->t1
 
 Show # %H8 $type->fragments->scarabs $tier->t2
 	Class == "Map Fragments" "Misc Map Items"
-	BaseType == "Allflame Ember of Propagation" "Allflame Ember of the Gilded" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Harvest Scarab of Cornucopia" "Kalguuran Scarab of Refinement" "The Black Barya"
+	BaseType == "Allflame Ember of Propagation" "Allflame Ember of the Gilded" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Harvest Scarab of Cornucopia" "Kalguuran Scarab of Refinement"
 
-Show # %H7 $type->fragments->scarabs $tier->t3stackedex
+Show # %D7 $type->fragments->scarabs $tier->t3stackedex
 	StackSize >= 3
 	Class == "Map Fragments" "Misc Map Items"
 	BaseType == "Abyss Scarab" "Abyss Scarab of Edifice" "Abyss Scarab of Multitudes" "Abyss Scarab of Profound Depth" "Allflame Ember of Flesh" "Allflame Ember of Resplendence" "Allflame Ember of the Wildwood" "Allflame Ember of Toads" "Ambush Scarab" "Ambush Scarab of Discernment" "Ambush Scarab of Hidden Compartments" "Ambush Scarab of Potency" "Anarchy Scarab" "Anarchy Scarab of Gigantification" "Anarchy Scarab of Partnership" "Anarchy Scarab of the Exceptional" "Bestiary Scarab" "Bestiary Scarab of Duplicating" "Bestiary Scarab of the Herd" "Betrayal Scarab" "Betrayal Scarab of Reinforcements" "Betrayal Scarab of the Allflame" "Beyond Scarab" "Beyond Scarab of Haemophilia" "Beyond Scarab of Resurgence" "Beyond Scarab of the Invasion" "Blight Scarab" "Blight Scarab of Blooming" "Blight Scarab of Invigoration" "Blight Scarab of the Blightheart" "Breach Scarab of Instability" "Breach Scarab of the Hive" "Breach Scarab of the Marshal" "Cartography Scarab of Corruption" "Cartography Scarab of Escalation" "Cartography Scarab of Risk" "Cartography Scarab of the Multitude" "Delirium Scarab" "Delirium Scarab of Delusions" "Delirium Scarab of Mania" "Delirium Scarab of Neuroses" "Delirium Scarab of Paranoia" "Divination Scarab of Pilfering" "Divination Scarab of Plenty" "Divination Scarab of The Cloister" "Domination Scarab" "Domination Scarab of Apparitions" "Domination Scarab of Evolution" "Essence Scarab" "Essence Scarab of Adaptation" "Essence Scarab of Ascent" "Essence Scarab of Stability" "Expedition Scarab" "Expedition Scarab of Archaeology" "Expedition Scarab of Runefinding" "Expedition Scarab of Verisium Powder" "Harvest Scarab" "Harvest Scarab of Doubling" "Horned Scarab of Glittering" "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Incursion Scarab" "Incursion Scarab of Champions" "Incursion Scarab of Invasion" "Incursion Scarab of Timelines" "Influencing Scarab of Hordes" "Influencing Scarab of Interference" "Influencing Scarab of the Elder" "Influencing Scarab of the Shaper" "Kalguuran Scarab" "Kalguuran Scarab of Enriching" "Kalguuran Scarab of Guarded Riches" "Legion Scarab" "Legion Scarab of Eternal Conflict" "Legion Scarab of Officers" "Legion Scarab of Treasures" "Ritual Scarab of Corpses" "Ritual Scarab of Selectiveness" "Ritual Scarab of Wisps" "Scarab of Adversaries" "Scarab of Divinity" "Scarab of Monstrous Lineage" "Scarab of Radiant Storms" "Scarab of Stability" "Scarab of the Sinistral" "Scarab of Wisps" "Sulphite Scarab" "Sulphite Scarab of Fumes" "Titanic Scarab" "Titanic Scarab of Legend" "Titanic Scarab of Treasures" "Torment Scarab" "Torment Scarab of Peculiarity" "Torment Scarab of Possession" "Ultimatum Scarab" "Ultimatum Scarab of Bribing" "Ultimatum Scarab of Inscription"
@@ -3916,7 +3916,7 @@ Show # %DS3 $type->fragments->stacked $tier->t3
 
 Show # $type->fragments $tier->t1
 	Class == "Map Fragments" "Misc Map Items"
-	BaseType == "Echo of Reverence" "Gift to the Goddess" "Syndicate Medallion"
+	BaseType == "Echo of Reverence" "Gift to the Goddess" "Syndicate Medallion" "The Black Barya"
 
 Show # %H8 $type->fragments $tier->t2
 	Class == "Map Fragments" "Misc Map Items"
@@ -4237,6 +4237,9 @@ Hide # $type->currency->heist $tier->exhide
 	Class == "Stackable Currency"
 	BaseType == "Rogue's Marker"
 
+Show # $type->currency->leagueexclusive $tier->silvercoin
+	BaseType == "Silver Coin"
+
 #===============================================================================================================
 # [[4000]] Currency - Regular Currency Tiering
 #===============================================================================================================
@@ -4248,11 +4251,11 @@ Show # $type->currency $tier->t1exalted
 
 Show # %H8 $type->currency $tier->t2divine
 	Class == "Stackable Currency"
-	BaseType == "Chaotic Astrolabe" "Crescent Splinter" "Dextral Catalyst" "Elder's Exalted Orb" "Eldritch Chaos Orb" "Eldritch Orb of Annulment" "Enshrouded Astrolabe" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Flesh of Xesht" "Fracturing Shard" "Fruiting Astrolabe" "Fungal Astrolabe" "Grasping Astrolabe" "Lightless Astrolabe" "Maven's Chisel of Avarice" "Maven's Chisel of Scarabs" "Memory of Loneliness" "Memory of Reverence" "Memory of Trauma" "Nameless Astrolabe" "Orb of Conflict" "Orb of Remembrance" "Orb of Unravelling" "Refracting Fog" "Ritual Vessel" "Runic Astrolabe" "Sacred Crystallised Lifeforce" "Sacred Orb" "Sinistral Catalyst" "Tailoring Orb" "Tainted Orb of Fusing" "Timeless Astrolabe"
+	BaseType == "Chaotic Astrolabe" "Dextral Catalyst" "Elder's Exalted Orb" "Eldritch Chaos Orb" "Eldritch Orb of Annulment" "Enshrouded Astrolabe" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Flesh of Xesht" "Fracturing Shard" "Fruiting Astrolabe" "Fungal Astrolabe" "Grasping Astrolabe" "Lightless Astrolabe" "Maven's Chisel of Avarice" "Maven's Chisel of Scarabs" "Memory of Loneliness" "Memory of Reverence" "Memory of Trauma" "Nameless Astrolabe" "Orb of Conflict" "Orb of Remembrance" "Orb of Unravelling" "Refracting Fog" "Ritual Vessel" "Runic Astrolabe" "Sacred Crystallised Lifeforce" "Sacred Orb" "Sinistral Catalyst" "Tailoring Orb" "Tainted Orb of Fusing" "Timeless Astrolabe"
 
 Show # %H7 $type->currency $tier->t3annul
 	Class == "Stackable Currency"
-	BaseType == "Ancient Orb" "Crystallised Rancour" "Fertile Catalyst" "Maven's Chisel of Divination" "Maven's Chisel of Procurement" "Maven's Chisel of Proliferation" "Orb of Annulment" "Prismatic Catalyst" "Tainted Exalted Orb" "Tainted Mythic Orb" "Templar Astrolabe" "Veiled Chaos Orb"
+	BaseType == "Ancient Orb" "Crescent Splinter" "Crystallised Rancour" "Fertile Catalyst" "Maven's Chisel of Divination" "Maven's Chisel of Procurement" "Maven's Chisel of Proliferation" "Orb of Annulment" "Prismatic Catalyst" "Tainted Exalted Orb" "Tainted Mythic Orb" "Templar Astrolabe" "Veiled Chaos Orb"
 
 Show # %H6 $type->currency $tier->t4chaos
 	Class == "Stackable Currency"
@@ -4513,15 +4516,15 @@ Show # $type->currency->trial->omen $tier->restex
 
 Show # $type->currency->trial->tattoo $tier->t1
 	Class == "Stackable Currency"
-	BaseType == "Journey Tattoo of the Body" "Journey Tattoo of the Mind" "Tattoo of the Arohongui Shaman" "Tattoo of the Hinekora Storyteller" "Tattoo of the Kitava Shaman" "Tattoo of the Ngamahu Firewalker" "Tattoo of the Ngamahu Warmonger" "Tattoo of the Ramako Shaman" "Tattoo of the Rongokurai Turtle" "Tattoo of the Tawhoa Shaman" "Tattoo of the Valako Shieldbearer"
+	BaseType == "Forbidden Tattoo of the Duelist" "Forbidden Tattoo of the Marauder" "Forbidden Tattoo of the Ranger" "Forbidden Tattoo of the Scion" "Forbidden Tattoo of the Shadow" "Forbidden Tattoo of the Templar" "Forbidden Tattoo of the Witch" "Honoured Tattoo of the Barbarian" "Honoured Tattoo of the Berserker" "Honoured Tattoo of the Flood" "Honoured Tattoo of the Hunter" "Honoured Tattoo of the Makanga" "Honoured Tattoo of the Mountain" "Honoured Tattoo of the Pa" "Honoured Tattoo of the Storm" "Honoured Tattoo of the Warlord" "Honoured Tattoo of the Wise" "Journey Tattoo of Makanui" "Journey Tattoo of the Body" "Journey Tattoo of the Mind" "Tattoo of the Ngamahu Makanga" "Tattoo of the Ramako Makanga"
 
 Show # %H8 $type->currency->trial->tattoo $tier->t2
 	Class == "Stackable Currency"
-	BaseType == "Journey Tattoo of the Soul" "Tattoo of the Hinekora Warmonger" "Tattoo of the Hinekora Warrior" "Tattoo of the Ngamahu Shaman" "Tattoo of the Ngamahu Warrior" "Tattoo of the Ngamahu Woodcarver" "Tattoo of the Ramako Fleetfoot" "Tattoo of the Ramako Sniper" "Tattoo of the Tasalio Tideshifter" "Tattoo of the Tasalio Warrior" "Tattoo of the Tawhoa Herbalist" "Tattoo of the Tukohama Warcaller" "Tattoo of the Valako Stormrider"
+	BaseType == "Ancestral Tattoo of Bloodlines" "Honoured Tattoo of the Flock" "Honoured Tattoo of the Hatungo" "Honoured Tattoo of the Pillager" "Honoured Tattoo of the Turtle" "Journey Tattoo of the Soul" "Tattoo of the Arohongui Makanga" "Tattoo of the Arohongui Shaman" "Tattoo of the Hinekora Makanga" "Tattoo of the Hinekora Storyteller" "Tattoo of the Hinekora Warmonger" "Tattoo of the Hinekora Warrior" "Tattoo of the Kitava Shaman" "Tattoo of the Ngamahu Firewalker" "Tattoo of the Ngamahu Shaman" "Tattoo of the Ngamahu Warmonger" "Tattoo of the Ngamahu Warrior" "Tattoo of the Ngamahu Woodcarver" "Tattoo of the Ramako Fleetfoot" "Tattoo of the Ramako Shaman" "Tattoo of the Ramako Sniper" "Tattoo of the Rongokurai Turtle" "Tattoo of the Tasalio Makanga" "Tattoo of the Tasalio Tideshifter" "Tattoo of the Tasalio Warrior" "Tattoo of the Tawhoa Herbalist" "Tattoo of the Tawhoa Makanga" "Tattoo of the Tawhoa Shaman" "Tattoo of the Tukohama Makanga" "Tattoo of the Tukohama Warcaller" "Tattoo of the Valako Makanga" "Tattoo of the Valako Shieldbearer" "Tattoo of the Valako Stormrider"
 
 Show # %H7 $type->currency->trial->tattoo $tier->t3
 	Class == "Stackable Currency"
-	BaseType == "Tattoo of the Hinekora Deathwarden" "Tattoo of the Hinekora Shaman" "Tattoo of the Kitava Rebel" "Tattoo of the Kitava Warrior" "Tattoo of the Ramako Archer" "Tattoo of the Ramako Scout" "Tattoo of the Rongokurai Guard" "Tattoo of the Tasalio Scout" "Tattoo of the Tawhoa Naturalist" "Tattoo of the Tawhoa Scout" "Tattoo of the Tawhoa Warrior" "Tattoo of the Valako Shaman" "Tattoo of the Valako Warrior"
+	BaseType == "Honoured Tattoo of the Dove" "Honoured Tattoo of the Oak" "Honoured Tattoo of the Sky" "Honoured Tattoo of the Tuatara" "Loyalty Tattoo of Ahuana" "Loyalty Tattoo of Akoya" "Loyalty Tattoo of Ikiaho" "Loyalty Tattoo of Kahuturoa" "Loyalty Tattoo of Kaom" "Loyalty Tattoo of Kiloava" "Loyalty Tattoo of Maata" "Loyalty Tattoo of Rakiata" "Loyalty Tattoo of Tawhanuku" "Loyalty Tattoo of Utula" "Tattoo of the Hinekora Deathwarden" "Tattoo of the Hinekora Shaman" "Tattoo of the Kitava Makanga" "Tattoo of the Kitava Rebel" "Tattoo of the Kitava Warrior" "Tattoo of the Ramako Archer" "Tattoo of the Ramako Scout" "Tattoo of the Rongokurai Guard" "Tattoo of the Rongokurai Makanga" "Tattoo of the Tasalio Scout" "Tattoo of the Tawhoa Naturalist" "Tattoo of the Tawhoa Scout" "Tattoo of the Tawhoa Warrior" "Tattoo of the Valako Shaman" "Tattoo of the Valako Warrior"
 
 Show # %H6 $type->currency->trial->tattoo $tier->t4
 	Class == "Stackable Currency"
@@ -4551,11 +4554,11 @@ Show # $type->currency->others $tier->misc
 #Show # $type->exotic->wombgifts $tier->t2
 #	Class == "Wombgifts"
 
-Show # %H7 $type->exotic->wombgifts $tier->t3
+Show # %H8 $type->exotic->wombgifts $tier->t3
 	Class == "Wombgifts"
 	BaseType == "Ancient Wombgift"
 
-Show # %H5 $type->exotic->wombgifts $tier->t4
+Show # %H6 $type->exotic->wombgifts $tier->t4
 	Class == "Wombgifts"
 	BaseType == "Lavish Wombgift" "Mysterious Wombgift" "Provisioning Wombgift"
 

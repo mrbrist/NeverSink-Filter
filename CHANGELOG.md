@@ -8,6 +8,12 @@ Major thanks to all [Patreon](https://www.patreon.com/Neversink) supports to hel
 Suggestions and feedback is highly welcome! Please take a moment to write in our [DISCORD](https://discord.gg/zFEx92a).
 
 ----------------------------------
+# **VERSION 8.19.3** - Phrecia Support
+----------------------------------
+
+- Added support for the Phrecia/Ancestor Event
+
+----------------------------------
 # **VERSION 8.19.2a** - Mirage Economy update 2
 ----------------------------------
 
