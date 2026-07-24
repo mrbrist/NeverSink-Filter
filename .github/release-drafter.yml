@@ -1,7 +1,47 @@
 template: |
   *All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
   
-  - Added support for the Phrecia/Ancestor Event
+  ## ALLFLAME LEAGUE CHANGES:
+  - Removed incubators and (most) previous talisman rules
+  - Added a new rule to highlight expensive 19%+ quality uncorrupted gems.
+  - Added simple chart highlight
+  - Added a Dead Man's Sulphur tierlist based on stacksize.
+  - Added Ducat Tierlist, though these may migrate into the main tierlist post-league
+  - Added scrying orb into the 'currency with state' rules (previously inhabited by the 'imprint') and moved Facetor's Lens there. These items are never hidden.
+  - Added all other new items
+  - Added a rule for enshrouded uniques
+  - Added a rule for vestigial uniques
+  - Added a new 3-tier rule for talismans. This will get adjusted over time.
+  
+  ## TIERING CHANGES:
+  
+  As a note, it's very hard to estimate the impact of Vestige-Uniques, as we don't know the droprate of the shards and how quickly they 'hatch' and how biased they are towards poor uniques/poor rolls (maybe for uniques that have 2+ mods). I've done my best to include all items that seem *somewhat* relevant, but we need actual economy data, before the impact of Vestigial crafting can be estimated.
+  
+  - All tierlists have been adjusted:
+  - This currently includes the following tierlists: Uniques, Divination Cards, Fragments and ~20 other tierlists.
+  - Added economy-based expensive item sections for ItemLevel 83,84,85 (86 already existed). An item needs to exceed a certain price threshold. If it does the basetype will be caught by that section.
+  - Added foulborn and replica unique safeguards and early league tiering (previously they were economy tiered, but had less options)
+  
+  ## BASE TIERING:
+  - Retiered the bases towards the new meta (more wand/sceptre and even some staff usage. More focus on AR/ES armors than before etc
+  - Rebalanced the visuals on memory-strand items. Generally speaking the higher memory highlights require the item to either have a sizable amount of strands or a high item tier. The 'low strand amount' is now 15/20/25 depending on the tier, up from 1. Adjusted strictness progression.
+  
+  ## SOCKET COLOR RELATED CHANGES:
+  
+  My assumption is that chromatic orbs are now at least on the Chaos Orb value tier. The filter has been adjusted accordingly. I currently do NOT yet give extra highlight to items with many offcolors. After 2-3 days after there is some economy data and better endgame understanding I'll add the appropriate rules. Instead the filter for now highlights more crafting bases, as colors likely only matter if the base is of interest.
+  
+  - Adjusted the chromatic rule. This is now equivalent in value/tiering to the 6S recipe.
+  - Introduced a set of new high Tier RGB-recipe rules (Chromatic Orb). These have the same highlight as the 6S recipe. Note that all other RGB rules still 'technically exist', but are all disabled. I will remove one of the two sets of rules once the meta settles on the rarity/value of chromatics, RGB-drops and desirability of doing the RGB-recipe in the endgame.
+  - Removed the exception rule for squires (now that the 3-white is gone). Say hello to the Oppressor.
+  - Removed white socket highlight rules
+  - Removed the 4x white triad grip rule
+  
+  ## OTHER:
+  - Reduced the highlight of ward flasks below level 84 by one level. Still shown and very loud, but not a tink. Will raise again if ward meta prevails.
+  - Added a new identififed rule to look for rings with max light radius, some life and 2 somewhat useful mods on for the luminaries
+  - Split rules for Valdo/Nightmare/Shaper maps
+  - Added a highlight all corrupted rings with an implicit ILVL75+ (the hunt for frenzy/power charge rings, these make for great mythic orb fodder)
+  - A ton of minor and architecture changes I forgot
   
   ------
 
