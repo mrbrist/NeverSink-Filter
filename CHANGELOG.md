@@ -13,6 +13,8 @@ Suggestions and feedback is highly welcome! Please take a moment to write in our
 
 This update is the culmination of nearly a hundred small changes since the start of the league. Many of these have been already rolled out to the economy based filters.
 
+# CHANGES:
+- Adjusted all tierlists, tiering algorithms, item information etc. for the new league and economy
 - Overhauled the divination card tiering algorithm. The new setup should be a significant upgrade (however, divination card economy data is VERY unreliable on the lower end - it won't be flawless)
 - Added new unique tiering rules - the filter now tiers items with a value between the A tier and B/C tier more efficiently
 - Overhauled the unique aspects. Major thanks to @Mellontoss for their help!
