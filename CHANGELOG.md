@@ -8,6 +8,26 @@ Major thanks to all [Patreon](https://www.patreon.com/Neversink) supports to hel
 Suggestions and feedback is highly welcome! Please take a moment to write in our [DISCORD](https://discord.gg/zFEx92a).
 
 ----------------------------------
+# **VERSION 8.20.1** - Allflame Economy Update
+----------------------------------
+
+This update is the culmination of nearly a hundred small changes since the start of the league. Many of these have been already rolled out to the economy based filters.
+
+- Overhauled the divination card tiering algorithm. The new setup should be a significant upgrade (however, divination card economy data is VERY unreliable on the lower end - it won't be flawless)
+- Added new unique tiering rules - the filter now tiers items with a value between the A tier and B/C tier more efficiently
+- Overhauled the unique aspects. Major thanks to @Mellontoss for their help!
+- Adjusted strictness for splinter stacks to compensate for the legion changes
+- Integrated all new uniques, divination cards, fragments etc into the tiering
+- Further improved the 'Expensive Basetype' rule to better detect currently valuable bases. This is a work in progress.
+- Further improved tiering of Talismans
+- Added economy based ducat tiering
+- Added economy based enshrouding crystal tiering
+- Integrated the new ducat
+- Adjusted stack sizes for Dead Man's Sulphur highlighting
+- Added the new unique shield
+- Several smaller bugfixes and improvements.
+
+----------------------------------
 # **VERSION 8.20.0** - Moist Boat League
 ----------------------------------
 
