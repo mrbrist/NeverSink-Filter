@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
-# VERSION:  8.20.1
+# VERSION:  8.20.1d
 # TYPE:     0-SOFT
 # STYLE:    AZURITE
 # AUTHOR:   NeverSink
@@ -2825,7 +2825,7 @@ Show # $type->questlikeexception $tier->questheist
 	MinimapIcon 0 Green Pentagon
 
 Show # $type->questlikeexception $tier->questitems
-	Class == "Pantheon Souls" "Quest Items"
+	Class == "Cursed Ducat" "Pantheon Souls" "Quest Items"
 	SetFontSize 45
 	SetTextColor 74 230 58 255
 	SetBorderColor 74 230 58 255
@@ -3019,6 +3019,7 @@ Show # %D7 $type->exotic->enchanted $tier->anointedamulets
 	Corrupted False
 	Rarity Normal Magic Rare
 	Class == "Amulets"
+	BaseType == "Agate Amulet" "Amber Amulet" "Blue Pearl Amulet" "Citrine Amulet" "Coral Amulet" "Gold Amulet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Paua Amulet" "Seaglass Amulet" "Turquoise Amulet"
 	SetFontSize 45
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
@@ -3348,6 +3349,50 @@ Show # $type->decorators->rareeg $tier->corruptedraresimplicit
 	SetBorderColor 250 0 0 255
 	Continue
 
+# !! Waypoint c4.rare.talisman.all : "Rare Endgame Items - Talismans" : "Gear - Exotic"
+
+Show # %H5 $type->rare->exotic->talisman $tier->t1
+	AnyEnchantment True
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	Class == "Amulets"
+	BaseType == "Cobra Talisman" "Croaker Talisman" "Fenumal Talisman" "Great Maw Talisman" "Plagued Arachnid Talisman" "Retch Talisman" "Rhex Talisman" "Saqawine Talisman" "Scorpion Talisman" "Spider Crab Talisman" "Taurus Talisman" "Tiger Talisman" "Vulture Talisman" "Wolf Alpha Talisman"
+	SetFontSize 45
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+
+Show # %H5 $type->rare->exotic->talisman $tier->t2
+	AnyEnchantment True
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	Class == "Amulets"
+	BaseType == "Ape Talisman" "Black Widow Talisman" "Blood Viper Talisman" "Carrion Queen Talisman" "Chieftain Talisman" "Chimeral Talisman" "Craicic Talisman" "Devourer Talisman" "Farric Talisman" "Flame Hellion Talisman" "Frost Hellion Talisman" "Gargantuan Talisman" "Goatman Talisman" "Goliath Talisman" "Hybrid Arachnid Talisman" "Lynx Talisman" "Magma Hound Talisman" "Octopus Talisman" "Pitbull Talisman" "Rhoa Talisman" "Sand Spitter Talisman" "Savage Crab Talisman" "Scrabbler Talisman" "Shield Crab Talisman" "Squid Talisman" "Ursa Talisman" "Watcher Talisman"
+	SetFontSize 45
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+Show # %H5 $type->rare->exotic->talisman $tier->t3
+	AnyEnchantment True
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	Class == "Amulets"
+	BaseType == "Black Maw Talisman"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 103 34 163 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
 #Show # $type->rare->utility->droppeditems $tier->any
 #	Identified True
 #	ItemLevel >= 4
@@ -3449,50 +3494,6 @@ Show # %HS5 $type->rare->exotic->breachrings $tier->any
 	PlayAlertSound 3 300
 	PlayEffect Blue
 	MinimapIcon 1 Blue Diamond
-
-# !! Waypoint c4.rare.talisman.all : "Rare Endgame Items - Talismans" : "Gear - Exotic"
-
-Show # %H5 $type->rare->exotic->talisman $tier->t1
-	AnyEnchantment True
-	ItemLevel >= 68
-	Rarity Rare
-	Class == "Amulets"
-	BaseType == "Ape Talisman" "Black Maw Talisman" "Black Widow Talisman" "Blood Viper Talisman" "Carrion Queen Talisman" "Chieftain Talisman" "Chimeral Talisman" "Cobra Talisman" "Craicic Talisman" "Croaker Talisman" "Devourer Talisman" "Farric Talisman" "Fenumal Talisman" "Flame Hellion Talisman" "Frost Hellion Talisman" "Gargantuan Talisman" "Goatman Talisman" "Goliath Talisman" "Great Maw Talisman" "Greatwolf Talisman" "Hybrid Arachnid Talisman" "Lynx Talisman" "Magma Hound Talisman" "Octopus Talisman" "Pitbull Talisman" "Plagued Arachnid Talisman" "Retch Talisman" "Rhex Talisman" "Rhoa Talisman" "Sand Spitter Talisman" "Saqawine Talisman" "Savage Crab Talisman" "Scorpion Talisman" "Scrabbler Talisman" "Shield Crab Talisman" "Spider Crab Talisman" "Squid Talisman" "Taurus Talisman" "Tiger Talisman" "Ursa Talisman" "Vulture Talisman" "Watcher Talisman" "Wolf Alpha Talisman"
-	SetFontSize 45
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 20 20 0 255
-	PlayAlertSound 3 300
-	PlayEffect Blue
-	MinimapIcon 1 Blue Diamond
-
-Show # %H5 $type->rare->exotic->talisman $tier->t2
-	AnyEnchantment True
-	ItemLevel >= 68
-	Rarity Rare
-	Class == "Amulets"
-	BaseType == "Ape Talisman" "Black Maw Talisman" "Black Widow Talisman" "Blood Viper Talisman" "Carrion Queen Talisman" "Chieftain Talisman" "Chimeral Talisman" "Cobra Talisman" "Craicic Talisman" "Croaker Talisman" "Devourer Talisman" "Farric Talisman" "Fenumal Talisman" "Flame Hellion Talisman" "Frost Hellion Talisman" "Gargantuan Talisman" "Goatman Talisman" "Goliath Talisman" "Great Maw Talisman" "Greatwolf Talisman" "Hybrid Arachnid Talisman" "Lynx Talisman" "Magma Hound Talisman" "Octopus Talisman" "Pitbull Talisman" "Plagued Arachnid Talisman" "Retch Talisman" "Rhex Talisman" "Rhoa Talisman" "Sand Spitter Talisman" "Saqawine Talisman" "Savage Crab Talisman" "Scorpion Talisman" "Scrabbler Talisman" "Shield Crab Talisman" "Spider Crab Talisman" "Squid Talisman" "Taurus Talisman" "Tiger Talisman" "Ursa Talisman" "Vulture Talisman" "Watcher Talisman" "Wolf Alpha Talisman"
-	SetFontSize 45
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 20 20 0 255
-	PlayAlertSound 3 300
-	PlayEffect Blue
-	MinimapIcon 2 Blue Diamond
-
-Show # %H5 $type->rare->exotic->talisman $tier->t3
-	AnyEnchantment True
-	ItemLevel >= 68
-	Rarity Rare
-	Class == "Amulets"
-	BaseType == "Ape Talisman" "Black Maw Talisman" "Black Widow Talisman" "Blood Viper Talisman" "Carrion Queen Talisman" "Chieftain Talisman" "Chimeral Talisman" "Cobra Talisman" "Craicic Talisman" "Croaker Talisman" "Devourer Talisman" "Farric Talisman" "Fenumal Talisman" "Flame Hellion Talisman" "Frost Hellion Talisman" "Gargantuan Talisman" "Goatman Talisman" "Goliath Talisman" "Great Maw Talisman" "Greatwolf Talisman" "Hybrid Arachnid Talisman" "Lynx Talisman" "Magma Hound Talisman" "Octopus Talisman" "Pitbull Talisman" "Plagued Arachnid Talisman" "Retch Talisman" "Rhex Talisman" "Rhoa Talisman" "Sand Spitter Talisman" "Saqawine Talisman" "Savage Crab Talisman" "Scorpion Talisman" "Scrabbler Talisman" "Shield Crab Talisman" "Spider Crab Talisman" "Squid Talisman" "Taurus Talisman" "Tiger Talisman" "Ursa Talisman" "Vulture Talisman" "Watcher Talisman" "Wolf Alpha Talisman"
-	SetFontSize 45
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 103 34 163 255
-	PlayAlertSound 3 300
-	PlayEffect Blue
-	MinimapIcon 2 Blue Diamond
 
 #------------------------------------
 # [[2000]] Endgame - Rare - Conditional Hide Rules
@@ -5441,7 +5442,7 @@ Show # %HS5 $type->heist->gear $tier->t1highlevel
 	ItemLevel >= 83
 	Rarity Normal Magic Rare
 	Class == "Heist Gear"
-	BaseType == "Burst Band" "Obsidian Sharpening Stone" "Precise Arrowhead"
+	BaseType == "Burst Band" "Fragmenting Arrowhead" "Obsidian Sharpening Stone" "Precise Arrowhead"
 	SetFontSize 45
 	SetTextColor 245 190 0 255
 	SetBorderColor 255 85 85 255
@@ -5453,7 +5454,7 @@ Show # %HS5 $type->heist->gear $tier->t1highlevel
 Show # %H5 $type->heist->gear $tier->t1
 	Rarity Normal Magic Rare
 	Class == "Heist Gear"
-	BaseType == "Burst Band" "Obsidian Sharpening Stone" "Precise Arrowhead"
+	BaseType == "Burst Band" "Fragmenting Arrowhead" "Obsidian Sharpening Stone" "Precise Arrowhead"
 	SetFontSize 45
 	SetBorderColor 255 85 85 255
 	SetBackgroundColor 31 0 75 255
@@ -5464,7 +5465,7 @@ Show # %H5 $type->heist->gear $tier->t1
 Show # %H4 $type->heist->gear $tier->t2
 	Rarity Normal Magic Rare
 	Class == "Heist Gear"
-	BaseType == "Aggregator Charm" "Fine Sharpening Stone" "Fragmenting Arrowhead" "Hollowpoint Arrowhead"
+	BaseType == "Aggregator Charm" "Fine Sharpening Stone" "Hollowpoint Arrowhead"
 	SetFontSize 45
 	SetBorderColor 255 85 85 200
 	SetBackgroundColor 20 20 0 255
@@ -6485,7 +6486,7 @@ Show # $type->maps $tier->maps_a_t16
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
-Show # %H7 $type->maps $tier->maps_a_t15
+Show # %H5 $type->maps $tier->maps_a_t15
 	MapTier 15
 	Class == "Maps"
 	SetFontSize 45
@@ -6495,7 +6496,7 @@ Show # %H7 $type->maps $tier->maps_a_t15
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
-Show # %H6 $type->maps $tier->maps_a_t14
+Show # %H5 $type->maps $tier->maps_a_t14
 	MapTier 14
 	Class == "Maps"
 	SetFontSize 45
@@ -6507,7 +6508,7 @@ Show # %H6 $type->maps $tier->maps_a_t14
 
 # !! Waypoint c9.maps.generic.t14 : "Maps - t11-t13 - low reds" : "Maps"
 
-Show # %H5 $type->maps $tier->maps_b_t13
+Show # %H4 $type->maps $tier->maps_b_t13
 	MapTier 13
 	Class == "Maps"
 	SetFontSize 45
@@ -6517,7 +6518,7 @@ Show # %H5 $type->maps $tier->maps_b_t13
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
-Show # %H5 $type->maps $tier->maps_b_t12
+Show # %H4 $type->maps $tier->maps_b_t12
 	MapTier 12
 	Class == "Maps"
 	SetFontSize 45
@@ -6527,7 +6528,7 @@ Show # %H5 $type->maps $tier->maps_b_t12
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
-Show # %H5 $type->maps $tier->maps_b_t11
+Show # %H4 $type->maps $tier->maps_b_t11
 	MapTier 11
 	Class == "Maps"
 	SetFontSize 45

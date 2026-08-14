@@ -8,6 +8,34 @@ Major thanks to all [Patreon](https://www.patreon.com/Neversink) supports to hel
 Suggestions and feedback is highly welcome! Please take a moment to write in our [DISCORD](https://discord.gg/zFEx92a).
 
 ----------------------------------
+# **VERSION 8.20.1d** - Cursed Ducats
+----------------------------------
+
+- Added cursed ducats
+- Talisman finetuning
+- Tiering improvements
+
+----------------------------------
+# **VERSION 8.20.1c** - Expensive basetype highlight improvements
+----------------------------------
+
+- Expensive basetypes tiering now have a matrix that validates their itemlevel as some item levels are subpar for crafting.
+- Moved the talisman rule higher in terms of priority
+- Several finetunings when it comes to unique and divination card tiering
+
+----------------------------------
+# **VERSION 8.20.1b** - Talisman-Enchanted item interaction fix
+----------------------------------
+
+- Enchanted item-highlight rule no longer highlights talismans (as talismans are always enchanted and have their own ruleset)
+
+----------------------------------
+# **VERSION 8.20.1a** - Talisman fix
+----------------------------------
+
+- Fixed all 3 talisman tiers having the same (all talismans) content
+
+----------------------------------
 # **VERSION 8.20.1** - Allflame Economy Update
 ----------------------------------
 
