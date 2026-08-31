@@ -8,6 +8,19 @@ Major thanks to all [Patreon](https://www.patreon.com/Neversink) supports to hel
 Suggestions and feedback is highly welcome! Please take a moment to write in our [DISCORD](https://discord.gg/zFEx92a).
 
 ----------------------------------
+# **VERSION 8.20.1e** - Minor adjustments
+----------------------------------
+
+- 6 link uniques have been reduced in highlight
+- Overquality chancing rule now requires 28%+ instead of 26%+ quality
+- Removed legacy tattoos
+- Adjusted tiering and highlight of stacked splinters
+- Change tiering priority for stacked fragments
+- Removed allflame of k'tash
+- Changed the priorities of several rules
+- Fixed the names of the merc weapon/armor rules being switched on filterblade. Also limitted the weapon rule to only the bases that can actually have infmaous modifier to avoid overlap with the non-mercenary 'of infamy' modifier
+
+----------------------------------
 # **VERSION 8.20.1d** - Cursed Ducats
 ----------------------------------
 

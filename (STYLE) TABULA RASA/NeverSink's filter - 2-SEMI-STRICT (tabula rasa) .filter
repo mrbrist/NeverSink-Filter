@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
-# VERSION:  8.20.1d
+# VERSION:  8.20.1e
 # TYPE:     2-SEMI-STRICT
 # STYLE:    TABULA RASA
 # AUTHOR:   NeverSink
@@ -151,8 +151,7 @@
 # [[3500]] Misc Map Items
 # [[3600]] Fragments
 #   [3601] Scarabs
-#   [3602] Exceptions
-#   [3603] Regular Fragment Tiering
+#   [3602] Regular Fragment Tiering
 # [[3700]] Currency - Special
 # [[3800]] Currency - Leveling Exceptions
 # [[3900]] Currency - Exceptions - Stacked Currency
@@ -1265,7 +1264,7 @@ Show # %D4 $type->magicid $tier->singlemodtincture
 Show # %D9 $type->crafting->qualityperfection $tier->qualchancing
 	Mirrored False
 	Corrupted False
-	Quality >= 26
+	Quality >= 28
 	BaseType == "Riveted Boots" "Steel Kite Shield"
 
 Show # %D9 $type->crafting->qualityperfection $tier->armors1q1
@@ -1575,16 +1574,16 @@ Show # %D8 $type->exoticmods $tier->delve
 	Rarity Normal Magic Rare
 	HasExplicitMod "of the Underground" "Subterranean"
 
-Show # %D5 $type->exoticmods $tier->mercenaryweapons
+Show # %D5 $type->exoticmods $tier->mercenaryothers
 	Identified True
 	Rarity Normal Magic Rare
 	Class == "Amulets" "Belts" "Body Armours" "Boots" "Gloves" "Helmets" "Quivers" "Rings" "Shields"
 	HasExplicitMod "Infamous" "of Infamy"
 
-Show # %D5 $type->exoticmods $tier->mercenaryothers
+Show # %D5 $type->exoticmods $tier->mercenaryweapons
 	Identified True
 	Rarity Normal Magic Rare
-	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+	Class == "Bows" "Staves" "Wands" "Warstaves"
 	HasExplicitMod "Infamous"
 
 Show # %D3 $type->exoticmods $tier->warband
@@ -3459,16 +3458,17 @@ Show # $type->uniques->replicas $tier->t1
 Show # %H8 $type->uniques->replicas $tier->t2
 	Replica True
 	Rarity Unique
-	BaseType == "Assassin's Boots" "Blood Raiment" "Carnal Armour" "Ezomyte Burgonet" "Glorious Plate" "Great Mallet" "Imperial Bow" "Map (Tier 12)" "Map (Tier 14)" "Ornate Quiver" "Sage Wand" "Siege Axe" "Sorcerer Gloves" "Spidersilk Robe" "Stibnite Flask" "Synthesised Map" "Tornado Wand" "Turquoise Amulet" "Vaal Gauntlets" "Void Sceptre"
+	BaseType == "Assassin's Boots" "Blood Raiment" "Carnal Armour" "Ezomyte Burgonet" "Glorious Plate" "Great Mallet" "Imperial Bow" "Ornate Quiver" "Sage Wand" "Siege Axe" "Sorcerer Gloves" "Spidersilk Robe" "Stibnite Flask" "Tornado Wand" "Turquoise Amulet" "Vaal Gauntlets" "Void Sceptre"
 
-#Show # $type->uniques->replicas $tier->multi
-#	Replica True
-#	Rarity Unique
+Show # $type->uniques->replicas $tier->multi
+	Replica True
+	Rarity Unique
+	BaseType == "Map (Tier 11)" "Map (Tier 12)" "Map (Tier 14)" "Map (Tier 16)"
 
 Show # %H6 $type->uniques->replicas $tier->t3
 	Replica True
 	Rarity Unique
-	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Blasting Wand" "Boot Knife" "Bronzescale Boots" "Calling Wand" "Cloth Belt" "Cobalt Jewel" "Crimson Jewel" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Diamond Ring" "Elder Sword" "Elegant Ringmail" "Eternal Sword" "Ezomyte Axe" "Ezomyte Dagger" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Granite Flask" "Great Helmet" "Grinning Fetish" "Gut Ripper" "Heavy Belt" "Infernal Sword" "Jade Amulet" "Jasper Chopper" "Karui Sceptre" "Lacquered Buckler" "Laminated Kite Shield" "Leather Hood" "Map (Tier 11)" "Map (Tier 16)" "Murder Boots" "Nailed Fist" "Onyx Amulet" "Opal Wand" "Ornate Mace" "Paua Amulet" "Paua Ring" "Royal Skean" "Ruby Ring" "Rustic Sash" "Samite Gloves" "Sanctified Mana Flask" "Sapphire Ring" "Satin Gloves" "Shadow Sceptre" "Shagreen Boots" "Short Bow" "Silk Slippers" "Sinner Tricorne" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Titan Greaves" "Unset Ring" "Vaal Claw" "Vaal Rapier" "Viridian Jewel" "War Sword" "Zealot Gloves" "Zodiac Leather"
+	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Blasting Wand" "Boot Knife" "Bronzescale Boots" "Calling Wand" "Cloth Belt" "Cobalt Jewel" "Crimson Jewel" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Diamond Ring" "Elder Sword" "Elegant Ringmail" "Eternal Sword" "Ezomyte Axe" "Ezomyte Dagger" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Granite Flask" "Great Helmet" "Grinning Fetish" "Gut Ripper" "Heavy Belt" "Infernal Sword" "Jade Amulet" "Jasper Chopper" "Karui Sceptre" "Lacquered Buckler" "Laminated Kite Shield" "Leather Hood" "Murder Boots" "Nailed Fist" "Onyx Amulet" "Opal Wand" "Ornate Mace" "Paua Amulet" "Paua Ring" "Royal Skean" "Ruby Ring" "Rustic Sash" "Samite Gloves" "Sanctified Mana Flask" "Sapphire Ring" "Satin Gloves" "Shadow Sceptre" "Shagreen Boots" "Short Bow" "Silk Slippers" "Sinner Tricorne" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Titan Greaves" "Unset Ring" "Vaal Claw" "Vaal Rapier" "Viridian Jewel" "War Sword" "Zealot Gloves" "Zodiac Leather"
 
 Show # $type->uniques->replicas $tier->restex
 	Replica True
@@ -3839,10 +3839,11 @@ Show # $type->charts $tier->any
 	Rarity Normal Magic Rare
 	Class == "Chart"
 
-Show # $type->heist->contract $tier->enchanted
+Show # %H7 $type->heist->contract $tier->enchanted
 	AnyEnchantment True
 	Rarity Normal Magic Rare
 	Class == "Contracts"
+	BaseType == "Contract: Bunker" "Contract: Laboratory" "Contract: Mansion" "Contract: Prohibited Library" "Contract: Records Office" "Contract: Repository" "Contract: Smuggler's Den" "Contract: Tunnels" "Contract: Underbelly"
 
 Show # %H5 $type->heist->contract $tier->handpicked
 	Rarity Normal Magic Rare
@@ -3852,7 +3853,7 @@ Show # %H5 $type->heist->contract $tier->handpicked
 Hide # $type->heist->contract $tier->exhide
 	Class == "Contracts"
 
-Show # $type->heist->blueprint $tier->enchanted
+Show # %H9 $type->heist->blueprint $tier->enchanted
 	AnyEnchantment True
 	Rarity Normal Magic Rare
 	Class == "Blueprints"
@@ -3903,7 +3904,7 @@ Show # $type->fragments->scarabs $tier->t1
 
 Show # %H8 $type->fragments->scarabs $tier->t2
 	Class == "Map Fragments" "Misc Map Items"
-	BaseType == "Allflame Ember of K'Tash" "Allflame Ember of the Gilded" "Blight Scarab of Blooming" "Cartography Scarab of Risk" "Divination Scarab of Pilfering" "Harvest Scarab of Cornucopia" "Harvest Scarab of Doubling" "Horned Scarab of Awakening" "Horned Scarab of Tradition" "Incursion Scarab of Timelines" "Kalguuran Scarab of Refinement" "Legion Scarab of Eternal Conflict" "Trarthan Scarab of Surprising Alliances"
+	BaseType == "Allflame Ember of the Gilded" "Blight Scarab of Blooming" "Cartography Scarab of Risk" "Divination Scarab of Pilfering" "Harvest Scarab of Cornucopia" "Harvest Scarab of Doubling" "Horned Scarab of Awakening" "Horned Scarab of Tradition" "Incursion Scarab of Timelines" "Kalguuran Scarab of Refinement" "Legion Scarab of Eternal Conflict" "Trarthan Scarab of Surprising Alliances"
 
 Show # %D7 $type->fragments->scarabs $tier->t3stackedex
 	StackSize >= 3
@@ -3931,21 +3932,17 @@ Show # $type->fragments->scarabs $tier->restex
 	BaseType "Scarab"
 
 #------------------------------------
-#   [3602] Exceptions
-#------------------------------------
-
-Show # %DS3 $type->fragments->stacked $tier->t3
-	StackSize >= 3
-	Class == "Map Fragments" "Misc Map Items"
-	BaseType == "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Noon"
-
-#------------------------------------
-#   [3603] Regular Fragment Tiering
+#   [3602] Regular Fragment Tiering
 #------------------------------------
 
 Show # $type->fragments $tier->t1
 	Class == "Map Fragments" "Misc Map Items"
 	BaseType == "An Audience With The King" "Cosmic Fragment" "Decaying Fragment" "Devouring Fragment" "Echo of Loneliness" "Echo of Reverence" "Echo of Trauma" "Incandescent Invitation" "Reality Fragment" "Reverent Fragment" "Screaming Invitation" "Syndicate Medallion" "The Black Barya" "Timeless Maraketh Emblem" "Zorath's Eye of the Inevitable"
+
+Show # %DS3 $type->fragments $tier->t3stackedex
+	StackSize >= 3
+	Class == "Map Fragments" "Misc Map Items"
+	BaseType == "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Noon"
 
 Show # %H8 $type->fragments $tier->t2
 	Class == "Map Fragments" "Misc Map Items"
@@ -4690,7 +4687,7 @@ Show # %DS6 $type->currency->stackedsplintershigh $tier->t4
 	Class == "Stackable Currency"
 	BaseType == "Timeless Maraketh Splinter"
 
-Show # %D6 $type->currency->stackedsplintershigh $tier->t5
+Show # %DS5 $type->currency->stackedsplintershigh $tier->t5
 	StackSize >= 2
 	Class == "Stackable Currency"
 	BaseType == "Timeless Maraketh Splinter"
@@ -4710,12 +4707,12 @@ Show # %D5 $type->currency->stackedsplinterslow $tier->t3
 	Class == "Stackable Currency"
 	BaseType == "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
 
-Show # %DS6 $type->currency->stackedsplinterslow $tier->t4
+Show # %DS5 $type->currency->stackedsplinterslow $tier->t4
 	StackSize >= 5
 	Class == "Stackable Currency"
 	BaseType == "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
 
-Show # %D5 $type->currency->stackedsplinterslow $tier->t5
+Show # %DS4 $type->currency->stackedsplinterslow $tier->t5
 	StackSize >= 2
 	Class == "Stackable Currency"
 	BaseType == "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
