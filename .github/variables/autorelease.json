@@ -2,15 +2,15 @@
   "variables": [
     {
       "name": "prefix",
-      "value": "NeverSink's itemfilter - version "
+      "value": "NeverSink's PoE Filter - version "
     },
     {
       "name": "version",
-      "value": "8.14.3a"
+      "value": "8.20.1e"
     },
     {
       "name": "suffix",
-      "value": "Tattoos and finetuning"
+      "value": "Minor adjustments"
     }
   ]
 }
