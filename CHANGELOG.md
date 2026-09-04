@@ -8,6 +8,18 @@ Major thanks to all [Patreon](https://www.patreon.com/Neversink) supports to hel
 Suggestions and feedback is highly welcome! Please take a moment to write in our [DISCORD](https://discord.gg/zFEx92a).
 
 ----------------------------------
+# **VERSION 8.20.2** - Event Support
+----------------------------------
+
+- Added PoE2 event support
+- Added new PoE2 soul cores
+- Added the bloom
+- Added the new expedition tablet
+- The economy is based on the stable PoE2 filter, but will adjust once economy data is available (on FilterBlade, the follow-filters follow the main PoE2 league)
+- Several improvements to the tiering algorithm
+- Finally added proper PoE2 datamining, so that all of the FilterBlade descriptions, implicits are now correct (some minor improvements still needed, like for the new breach bases)
+
+----------------------------------
 # **VERSION 8.20.1e** - Minor adjustments
 ----------------------------------
 
